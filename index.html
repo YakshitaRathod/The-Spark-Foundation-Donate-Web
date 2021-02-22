@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>INTERNSHIP TASK</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img\logo.png" alt="logo"></div>
+            <div class="vl"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input class="#search" type="text" name="Search" id="Search" placeholder="Explor"><button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Make a difference for people
+                    who needs it the most</p><br>
+                <p class="text-small">We can’t help everyone, but everyone can help someone.</p><br><br>
+                <div class="buttons">
+                    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GahxhzxLt5zMTu" async> </script> </form>
+                </div><br>
+                <p class="text-small2">Connect </p><br>  
+                <section class="s1">
+                    <a href="https://www.thesparksfoundationsingapore.org/" class="iconbtn fab fa-google fa-lg"></a>
+                    <a href="https://www.linkedin.com/company/sparks-foundation/" class="iconbtn fab fa-linkedin fa-lg"></a>
+                    <a href="https://www.instagram.com/thesparksfoundation.info/?hl=en" class="iconbtn fab fa-instagram fa-lg"></a>
+                    <a href="https://twitter.com/tsfsingapore" class="iconbtn fab fa-twitter fa-lg"></a>
+                </section>
+            </div>
+            <div class="secondHalf">
+                <img src="img\orphan.jpg" alt="kid">
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big2">Help feed poor children</p>
+        <p class="sectionSubTag text-small2">95.1 million children have been deprived of midday meals 
+            during the pandemic, adding to the child malnutrition load. Join this mission and provide 
+            monthly nutrition kits to ensure poor children are not malnourished. The kits comprise 
+            immunity-boosting formulas, multi-vitamins, iron and protein rich food, including dates, 
+            Horlicks, chickpea, ragi flour, etc. Just ₹1,000/month will safeguard one child from 
+            malnutrition.
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img\food.jpg" alt="orphan image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left" id="services">
+        <div class="paras">
+        <p class="sectionTag text-big2">Donate A Blanket. Save A Life</p>
+        <p class="sectionSubTag text-small2">Every winter, The Spark Foundation runs a Blanket Donation 
+            Campaign, where we provide high quality warm blankets along with dry ration and dignity 
+            kits to the underprivileged living in the open on the streets. We try our best to reach 
+            out to people in Delhi NCR and other parts of north India. Donate a warm blanket and save 
+            the life of the homeless.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img\blancket.jpg" height="200px" alt="orphan image" class="imgFluid">
+        </div> 
+    </section>
+    <section class="section" id="services">
+        <div class="paras">
+        <p class="sectionTag text-big2">Donate Food for Poor Patients and their Families outside 
+            Hospitals</p>
+        <p class="sectionSubTag text-small2">Your small contribution will support us to feed poor 
+            patients and their family members outside hospitals. Majority of the underprivileged 
+            patients admitted in Government hospitals are those who come from nearby states are 
+            often poor, in several cases family members decide to stay hungry to save money.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img\donate.jpg" alt="orphan image" class="imgFluid">
+        </div>
+    </section>
+     
+    <section class="contact" id="contact">
+        <form name="form1" class="form-group box" onsubmit="return validateForm()" action="submit.php" method="post">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+             <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+            <input class="btn btn-sm btn-dark" type="Submit" name="Submit" value="Submit">
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2001 - www.TheSparkFoundation.com - All rights reserved
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+    
+</form>
+</body>
+
+</html>
